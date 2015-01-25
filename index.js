@@ -8,6 +8,14 @@ module.exports.extension = function() {
 
     twee.emit('twee.setupHttpParsers.Start');
     twee.getApplication().use(bodyParser.json());
-    twee.getApplication().use(bodyParser.urlencoded(twee.getConfig('twee:options:bodyParser:urlencoded')));
+    twee.getApplication().use(bodyParser.urlencoded(twee.getConfig('extension:twee-http-parser:urlencoded')));
     twee.emit('twee.setupHttpParsers.End');
+};
+
+module.exports.configNamespace = 'twee-http-parser';
+
+module.exports.config = {
+    "urlencoded": {
+        "extended": true
+    }
 };
