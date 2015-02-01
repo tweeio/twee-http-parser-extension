@@ -13,3 +13,24 @@ To install it use this command:
 ```
 npm install twee-http-parser-extension --save
 ```
+
+
+Editing `package.json` of your application:
+
+```
+"dependencies": {
+    "twee-http-parser-extension": "*"
+}
+```
+
+Turning extension `ON` in `application/configs/twee.js`:
+
+```
+module.exports = {
+    "extensions": {
+        "HTTP Parser": {
+            "module": "twee-http-parser-extension"
+        }
+    }
+};
+```

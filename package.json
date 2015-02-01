@@ -1,9 +1,9 @@
 {
     "name": "twee-http-parser-extension",
     "preferGlobal": false,
-    "version": "0.0.2",
+    "version": "0.0.4",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
-    "homepage": "https://github.com/mesin/twee-http-parser-extension",
+    "homepage": "https://github.com/tweeio/twee-http-parser-extension",
     "description": "HTTP parser extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js",
     "license": "MIT",
     "dependencies": {
@@ -12,7 +12,7 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/mesin/twee-http-parser-extension.git"
+        "url": "https://github.com/tweeio/twee-http-parser-extension.git"
     },
     "keywords": [
         "body-parser",
@@ -32,6 +32,6 @@
         "api"
     ],
     "bugs": {
-        "url": "https://github.com/mesin/twee-http-parser-extension/issues"
+        "url": "https://github.com/tweeio/twee-http-parser-extension/issues"
     }
 }
